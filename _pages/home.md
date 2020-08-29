@@ -3,36 +3,31 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "0.1"
   overlay_image: /assets/images/bg-pattern.png
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "<i class='fas fa-download'></i> Start now for free!"
+      url: "/download/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.20.1">Latest release v4.20.1</a></small>
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+  Budgeting as Easy as ABC
+intro:
+  - title: "Add the money you have now"
+    excerpt: "Add all of the cash, bank, and credit card account balances in the app to see how much money you have right now"
+feature_row2:
+  - image_path: /assets/images/web-add-the-money-you-have-now.png
+    title: "Add the money you have now"
+    excerpt: 'Add all of the cash, bank, and credit card account balances in the app to see how much money you have right now'
+feature_row3:
+  - image_path: /assets/images/web-budget-it-into-envelopes.png
+    title: "Budget it into envelopes"
+    excerpt: 'Using the money you have right now, budget it into the envelopes based on your priority'
+feature_row4:
+  - image_path: /assets/images/web-cover-the-unexpected.png
+    title: "Cover the unexpected"
+    excerpt: 'Life throws curve balls, Budget Badger makes them easier to handle by allowing you to adjust your budget on the fly'
 ---
 
-{% include feature_row %}
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="left" %}

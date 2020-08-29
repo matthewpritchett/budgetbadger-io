@@ -7,4 +7,24 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import "https://rawgit.com/kremalicious/appstorebadges/master/dist/appstorebadges.min.css"
+/* system typefaces */
+$serif      : Georgia, Times, serif;
+$sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace  : Monaco, Consolas, "Lucida Console", monospace;
+
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 500;
+    src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2'),
+         url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff') format('woff'),
+         url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.ttf') format('truetype');
+}
+
+.badge__storename {
+    display: inline-block;
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: -.03em;
+    vertical-align: middle;
+}

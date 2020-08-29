@@ -5,7 +5,13 @@ hidden: true
 header:
   overlay_image: /assets/images/bg-pattern.png
   actions:
-    - label: "<i class='fas fa-download'></i> Start now for free!"
+    - label: "<i class='fab fa-apple'></i><span class='badge__storename'>App Store</span>"
+      url: "/download/"
+    - label: "<i class='fab fa-google-play'></i><span class='badge__storename'>Google Play</span>"
+      url: "/download/"
+    - label: "<i class='fab fa-apple'></i><span class='badge__storename'>Mac App Store</span>"
+      url: "/download/"
+    - label: "<i class='fab fa-windows'></i><span class='badge__storename'>Microsoft</span>"
       url: "/download/"
 excerpt: >
   Budgeting as Easy as ABC

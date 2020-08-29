@@ -21,10 +21,15 @@ $monospace  : Monaco, Consolas, "Lucida Console", monospace;
          url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.ttf') format('truetype');
 }
 
+// San Francisco all the things
+// http://furbo.org/2015/07/09/i-left-my-system-fonts-in-san-francisco/
+// https://gist.github.com/AndrewBarba/2c0f6612ceef30f5f55d
+$badge-font : system, -apple-system, '.SFNSDisplay-Regular', 'San Francisco', 'Helvetica Neue', 'Lucida Grande', 'Arial', sans-serif;
+
 .badge__storename {
     display: inline-block;
+    font-family: $badge-font;
     margin: 0;
-    font-size: 22px;
     letter-spacing: -.03em;
     vertical-align: middle;
 }

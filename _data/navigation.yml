@@ -2,8 +2,8 @@ main:
   - title: "Features"
     url: /features/
   - title: "Help"
-    url: /help-center/
+    url: /helpcenter/
   - title: "Privacy Policy"
     url: /privacypolicy/
   - title: "Contact"
-    url: /contact/
+    url: mailto:support@budgetbadger.io

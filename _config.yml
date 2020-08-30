@@ -10,26 +10,27 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Budget Badger - Expense Tracker for iOS, Android, Mac, & Windows"
+title                    : "Budget Badger"
 title_separator          : "-"
 #subtitle                 : "Budgeting as Easy as ABC"
 name                     : "Bay Wolf Studios"
-description              : "An amazing website."
+description              : "Expense Tracker for iOS, Android, Mac, & Windows"
 url                      : "https://baywolf-studios.github.io"
 baseurl                  : "/budgetbadger-io"
 repository               : "baywolf-studios/budgetbadger-io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+teaser                   : "/assets/images/teaser.png"
+logo                     : "/assets/images/logo.png"
+masthead_title           : "Budget Badger"
+search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+timezone: America/Chicago
 
 include:
   - _pages
@@ -77,13 +78,18 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://twitter.com/budget_badger"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://reddit.com/r/BudgetBadger"
+
+collections:
+  helpcenter:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -103,7 +109,14 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+  # _helpcenter
+  - scope:
+      path: "_helpcenter"
+      type: helpcenter
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 category_archive:
   type: liquid

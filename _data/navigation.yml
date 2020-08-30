@@ -7,3 +7,15 @@ main:
     url: /privacypolicy/
   - title: "Contact"
     url: mailto:support@budgetbadger.io
+
+help-center:
+  - title: Quick Start
+  - title: Reconcile an Account
+  - title: Transfer Between Envelopes
+  - title: Account Types
+  - title: Split Transactions
+  - title: Entering Income
+  - title: Entering Spending
+  - title: Debt/Credit Cards
+  - title: Transaction Status
+  - title: Envelope Groups

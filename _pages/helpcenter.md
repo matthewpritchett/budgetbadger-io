@@ -1,7 +1,7 @@
 ---
 title: Help Center
 layout: collection
-permalink: /helpcenter/
+permalink: /help-center/
 redirect_from:
   - /help-center/
 collection: helpcenter

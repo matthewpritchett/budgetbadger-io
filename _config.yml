@@ -89,7 +89,7 @@ footer:
 collections:
   helpcenter:
     output: true
-    permalink: /:collection/:path/
+    permalink: /help-center/:path/
 
 defaults:
   # _posts
@@ -117,6 +117,8 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      sidebar:
+        nav: "help-center"
 
 category_archive:
   type: liquid

@@ -31,5 +31,5 @@ $badge-font : system, -apple-system, '.SFNSDisplay-Regular', 'San Francisco', 'H
     font-family: $badge-font;
     margin: 0;
     letter-spacing: -.03em;
-    vertical-align: middle;
+    padding-left: 0.3em;
 }

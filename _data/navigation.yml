@@ -1,7 +1,9 @@
 main:
-  - title: "Download"
-    url: /download/
   - title: "Features"
     url: /features/
   - title: "Help"
-    url: /help/
+    url: /help-center/
+  - title: "Privacy Policy"
+    url: /privacypolicy/
+  - title: "Contact"
+    url: /contact/

@@ -2,7 +2,7 @@ main:
   - title: "Features"
     url: /features/
   - title: "Help"
-    url: /helpcenter/
+    url: /help-center/
   - title: "Privacy Policy"
     url: /privacypolicy/
   - title: "Contact"
@@ -10,12 +10,13 @@ main:
 
 help-center:
   - title: Quick Start
-  - title: Reconcile an Account
-  - title: Transfer Between Envelopes
-  - title: Account Types
-  - title: Split Transactions
-  - title: Entering Income
-  - title: Entering Spending
-  - title: Debt/Credit Cards
-  - title: Transaction Status
-  - title: Envelope Groups
+    url: /help-center/quick-start
+#  - title: Reconcile an Account
+#  - title: Transfer Between Envelopes
+#  - title: Account Types
+#  - title: Split Transactions
+#  - title: Entering Income
+#  - title: Entering Spending
+#  - title: Debt/Credit Cards
+#  - title: Transaction Status
+#  - title: Envelope Groups

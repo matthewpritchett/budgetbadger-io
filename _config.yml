@@ -111,12 +111,14 @@ defaults:
       layout: single
   # _helpcenter
   - scope:
-      path: "_helpcenter"
+      path: ""
       type: helpcenter
     values:
       layout: single
+      read_time: false
       author_profile: false
-      share: true
+      share: false
+      comments: false
       sidebar:
         nav: "help-center"
 

@@ -4,14 +4,22 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
 /* system typefaces */
 $serif      : Georgia, Times, serif;
 $sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace  : Monaco, Consolas, "Lucida Console", monospace;
 
+/* colors */
+$primary-color: #0c7bb3 !default;
+
+$gray: #707a8a !default;
+$dark-gray: #434a54 !default;
+$darker-gray: #333840 !default;
+$light-gray: #ebeff5 !default;
+$lighter-gray: #f5f7fa !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
 @font-face {
     font-family: "San Francisco";

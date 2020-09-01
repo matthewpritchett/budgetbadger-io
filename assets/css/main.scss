@@ -4,11 +4,6 @@
 
 @charset "utf-8";
 
-/* system typefaces */
-$serif      : Georgia, Times, serif;
-$sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace  : Monaco, Consolas, "Lucida Console", monospace;
-
 /* colors */
 $primary-color: #0c7bb3 !default;
 
@@ -18,8 +13,7 @@ $darker-gray: #333840 !default;
 $light-gray: #ebeff5 !default;
 $lighter-gray: #f5f7fa !default;
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+/* fonts */
 
 @font-face {
     font-family: "San Francisco";
@@ -29,11 +23,65 @@ $lighter-gray: #f5f7fa !default;
          url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: "Fira Sans";
+    src: url("../fonts/Fira_Sans/FiraSans-Regular.ttf") format('truetype') font-weight-normal,
+         url("../fonts/Fira_Sans/FiraSans-Bold.ttf") format('truetype') font-weight-bold;
+}
+
+@font-face {
+    font-family: "Fira Code";
+    src: url("../fonts/Fira_Code/static/FiraCode-Regular.ttf") format('truetype') font-weight-normal,
+         url("../fonts/Fira_Code/static/FiraCode-Bold.ttf") format('truetype') font-weight-bold;
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    src: url("../fonts/Source_Code_Pro/SourceCodePro-Regular.ttf") format('truetype') font-weight-normal,
+         url("../fonts/Source_Code_Pro/SourceCodePro-Bold.ttf") format('truetype') font-weight-bold;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format('truetype') font-weight-normal,
+         url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf") format('truetype') font-weight-bold;
+}
+
+@font-face {
+    font-family: "Source Serif Pro";
+    src: url("../fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf") format('truetype') font-weight-normal,
+         url("../fonts/Source_Serif_Pro/SourceSerifPro-Bold.ttf") format('truetype') font-weight-bold;
+}
+
 // San Francisco all the things
 // http://furbo.org/2015/07/09/i-left-my-system-fonts-in-san-francisco/
 // https://gist.github.com/AndrewBarba/2c0f6612ceef30f5f55d
 $badge-font : system, -apple-system, '.SFNSDisplay-Regular', 'San Francisco', 'Helvetica Neue', 'Lucida Grande', 'Arial', sans-serif;
 
+/* system typefaces */
+$serif: "Source Serif Pro", "Georgia", "Times", serif !default;
+$sans-serif: "Fira Sans", "Source Sans Pro", "San Francisco", "Roboto", "Segoe UI", "Trebuchet MS", "Lucida Grande", "Arial", sans-serif !default;
+$monospace: "Fira Code", "Source Code Pro", "Monaco", "Consolas", "Lucida Console", monospace !default;
+
+/* type scale
+$type-size-1: 1.602em !default; // ~39.056px
+$type-size-2: 1.424em !default; // ~31.248px
+$type-size-3: 1.266em !default; // ~25.008px
+$type-size-4: 1.125em !default; // ~20px
+$type-size-5: 1em !default; // ~16px
+$type-size-6: 0.889em !default; // ~12px
+$type-size-7: 0.790em !default; // ~11px
+$type-size-8: 0.702em !default; // ~10px
+*/
+/* headline scale 
+$h-size-1: 1.802em !default;
+$h-size-2: 1.602em !default;
+$h-size-3: 1.424em !default;
+$h-size-4: 1.266em !default;
+$h-size-5: 1.125em !default;
+$h-size-6: 1em !default;
+*/
+/* badge css */
 .badge__storename {
     display: inline-block;
     font-family: $badge-font;
@@ -41,3 +89,6 @@ $badge-font : system, -apple-system, '.SFNSDisplay-Regular', 'San Francisco', 'H
     letter-spacing: -.03em;
     padding-left: 0.3em;
 }
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

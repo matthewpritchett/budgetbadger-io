@@ -1,7 +1,7 @@
 ---
 title: "Quick Start"
-excerpt: "How to quickly install and setup Budget Badger."
-last_modified_at: 2020-07-27
+excerpt: "This guide will get you up and going in minutes and make Budgeting as Easy as ABC!"
+last_modified_at: 2020-08-31
 toc: true
 ---
 

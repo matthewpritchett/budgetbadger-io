@@ -11,12 +11,23 @@ main:
 help-center:
   - title: Quick Start
     url: /help-center/quick-start
-#  - title: Reconcile an Account
-#  - title: Transfer Between Envelopes
-#  - title: Account Types
-#  - title: Split Transactions
-#  - title: Entering Income
-#  - title: Entering Spending
-#  - title: Debt/Credit Cards
-#  - title: Transaction Status
-#  - title: Envelope Groups
+  - title: Account Types
+    url: /help-center/account-types
+  - title: Transaction Status
+    url: /help-center/transaction-status
+  - title: Envelope Groups
+    url: /help-center/envelope-groups
+  - title: Reconciliation
+    url: /help-center/reconciliation
+  - title: Transfer Between Envelopes
+    url: /help-center/transfer-between-envelopes
+  - title: Split Transactions
+    url: /help-center/split-transactions
+  - title: Entering Income
+    url: /help-center/entering-income
+  - title: Entering Spending
+    url: /help-center/entering-spending
+  - title: Quick Budget
+    url: /help-center/quick-budget
+  - title: Debt & Credit Cards
+    url: /help-center/debt-credit-cards

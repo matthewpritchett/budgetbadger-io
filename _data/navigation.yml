@@ -17,8 +17,8 @@ help-center:
     url: /help-center/transaction-status
   - title: Envelope Groups
     url: /help-center/envelope-groups
-  - title: Reconciliation
-    url: /help-center/reconciliation
+#  - title: Reconciliation
+#    url: /help-center/reconciliation
   - title: Transfer Between Envelopes
     url: /help-center/transfer-between-envelopes
   - title: Split Transactions
@@ -29,5 +29,5 @@ help-center:
     url: /help-center/entering-spending
   - title: Quick Budget
     url: /help-center/quick-budget
-  - title: Debt & Credit Cards
-    url: /help-center/debt-credit-cards
+#  - title: Debt & Credit Cards
+#    url: /help-center/debt-credit-cards

@@ -27,7 +27,7 @@ feature_row2:
 feature_row3:
   - image_path: /assets/images/web-cover-the-unexpected.png
     title: "Cover the unexpected"
-    excerpt: 'Life throws curve balls, Budget Badger makes them easier to handle by allowing you to adjust your budget on the fly'
+    excerpt: "Life throws curve balls, Budget Badger makes them easier to handle by allowing you to adjust your budget on the fly"
 feature_row4:
   - excerpt: "Mary"
     title: "I love Budget Badger Pro! It's simple to use. It's not so highly structured --it's MY budget, customized for my life."
@@ -43,4 +43,14 @@ feature_row4:
 
 {% include feature_row id="feature_row3" type="left" %}
 
-{% include feature_row id="feature_row4" %}
+<div class="feature__wrapper" style="border-bottom: 0px;">
+    <div class="feature__item--center">
+        <div class="archive__item">
+            <div class="archive__item-body">
+                <h1 class="archive__item-title" style="text-align: center;">What people are saying</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include review_row id="feature_row4" %}

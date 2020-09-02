@@ -15,4 +15,4 @@ title: "Features"
 |Cloud Sync||<i class="fas fa-check"></i>|
 |Reporting||<i class="fas fa-check"></i>|
 |Edit in data grid||<i class="fas fa-check"></i>|
-|Price|Free!|$2.99|
+|Price|***Free!***|***$2.99***|

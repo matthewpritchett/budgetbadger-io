@@ -19,6 +19,7 @@ url                      : "https://baywolf-studios.github.io"
 baseurl                  : "/budgetbadger-io"
 repository               : "baywolf-studios/budgetbadger-io"
 teaser                   : "/assets/images/teaser.png"
+og_image                 : "/assets/images/teaser.png"
 logo                     : "/assets/images/logo.png"
 masthead_title           : "Budget Badger"
 search: true
@@ -78,13 +79,16 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/budget_badger"
+      url: "https://twitter.com/BudgetBadgerApp"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
-      url: "https://facebook.com/"
+      url: "https://www.facebook.com/budgetbadger/"
     - label: "Reddit"
       icon: "fab fa-fw fa-reddit"
       url: "https://reddit.com/r/BudgetBadger"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/budget_badger/"
 
 collections:
   helpcenter:
@@ -128,3 +132,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-177205495-1"
+    anonymize_ip: true # default

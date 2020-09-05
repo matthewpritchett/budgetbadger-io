@@ -127,5 +127,12 @@ $h-size-6: 1em !default;
     padding-left: 0.3em;
 }
 
+@media (max-width: 37.5em){
+    .archive__item-teaser.testimonial {
+        float: left;
+        padding-right: 2em;
+    }
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

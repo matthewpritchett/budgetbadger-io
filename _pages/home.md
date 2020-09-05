@@ -29,12 +29,25 @@ feature_row3:
     title: "Cover the unexpected"
     excerpt: "Life throws curve balls, Budget Badger makes them easier to handle by allowing you to adjust your budget on the fly"
 feature_row4:
-  - excerpt: "Mary"
-    title: "I love Budget Badger Pro! It's simple to use. It's not so highly structured --it's MY budget, customized for my life."
-  - excerpt: "Rockmysocks42"
-    title: "The app works great for simple budgeting. This is exactly what we have been looking for in a budget app for the last 5 or so years."
-  - excerpt: "Tamara"
-    title: "This app has already helped me see my spending mistakes."
+  - image_path: /assets/images/mary.jpg
+    excerpt: "Mary"
+    title: "I love Budget Badger Pro! It's simple to use. It's not so highly structured --it's MY budget."
+  - image_path: /assets/images/elliot.jpg
+    excerpt: "Elliot"
+    title: "This has so much potential. It is already so much better than the vast majority of others out there."
+  - image_path: /assets/images/rockmysocks42.jpg
+    excerpt: "Rockmysocks42"
+    title: "This is exactly what we have been looking for in a budget app for the last 5 or so years."
+feature_row5:
+  - image_path: /assets/images/web-add-the-money-you-have-now.png
+    title: "Add the money you have now"
+    excerpt: 'Add all of the cash, bank, and credit card account balances in the app to see how much money you have right now'
+  - image_path: /assets/images/web-budget-it-into-envelopes.png
+    title: "Budget it into envelopes"
+    excerpt: 'Using the money you have right now, budget it into the envelopes based on your priority'
+  - image_path: /assets/images/web-cover-the-unexpected.png
+    title: "Cover the unexpected"
+    excerpt: "Life throws curve balls, Budget Badger makes them easier to handle by allowing you to adjust your budget on the fly"
 ---
 
 {% include feature_row id="feature_row1" type="left" %}
@@ -53,4 +66,20 @@ feature_row4:
     </div>
 </div>
 
-{% include review_row id="feature_row4" %}
+{% include testimonial_row id="feature_row4" %}
+
+<div class="feature__wrapper" style="border-bottom: 0px;">
+    <div class="feature__item--center">
+        <div class="archive__item">
+            <div class="archive__item-body">
+                <h1 class="archive__item-title" style="text-align: center;">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="grid__wrapper">
+  {% for post in site.posts limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>

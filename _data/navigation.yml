@@ -3,6 +3,8 @@ main:
     url: /features/
   - title: "Help"
     url: /help-center/
+  - title: "Blog"
+    url: /blog/
   - title: "Privacy Policy"
     url: /privacypolicy/
   - title: "Contact"

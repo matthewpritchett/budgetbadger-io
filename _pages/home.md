@@ -6,6 +6,7 @@ title: "Budgeting as Easy as ABC"
 tagline: "Download on your device for free!"
 header:
   overlay_image: /assets/images/bg-pattern.png
+  og_image: /assets/images/teaser.png
   actions:
     - label: "<i class='fab fa-apple'></i> <span class='badge__storename'>App Store</span>"
       url: "https://itunes.apple.com/us/app/budget-badger/id1436425263"

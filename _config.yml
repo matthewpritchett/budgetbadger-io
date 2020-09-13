@@ -26,7 +26,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.20.2
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -79,7 +79,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/BudgetBadgerApp"
+      url: "https://twitter.com/budget_badger"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/budgetbadger/"

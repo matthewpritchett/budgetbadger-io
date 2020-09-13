@@ -2,8 +2,6 @@
 title: "New Website Launched!"
 header:
   teaser: /assets/images/new-website.png
-tags:
-  - news
 ---
 
 **We are proud to announce the launch of the newly redesigned [Budget Badger](https://budgetbadger.io) website!**

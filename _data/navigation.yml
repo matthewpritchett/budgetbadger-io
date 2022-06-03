@@ -1,14 +1,14 @@
 main:
-  - title: "Features"
-    url: /features/
+  - title: "GitHub"
+    url: https://github.com/baywolf-studios/BudgetBadger
   - title: "Help"
     url: /help-center/
   - title: "Blog"
     url: /blog/
+  - title: "Wiki"
+    url: https://github.com/baywolf-studios/BudgetBadger/wiki
   - title: "Privacy Policy"
     url: /privacypolicy/
-  - title: "Contact"
-    url: mailto:support@budgetbadger.io
 
 help-center:
   - title: Quick Start
